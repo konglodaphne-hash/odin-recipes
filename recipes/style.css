@@ -1,0 +1,25 @@
+
+.recipe-card {
+    background-color: #ffffff;
+    border-radius: 12px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 300px;
+}
+
+.recipe-title {
+    color: #cc4e46; /* A warm, appetizing red/orange */
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 12px; /* Smooths out sharp image edges */
+}
+
+body {
+    background-color: lightpink;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}

@@ -1,3 +1,63 @@
-/* div: a red background, white text, a font size of 32px, center aligned, and bold
-p: a green background, white text, and a font size of 18px
-button: an orange background and a font size of 18px */
+
+.recipe-card {
+    background-color: #ffffff;
+    border-radius: 12px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.recipe-title {
+    color: #cc4e46; /* A warm, appetizing red/orange */
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 12px;
+}
+
+body {
+    background-color: lightpink;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.Odin {
+    font-style: normal;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    text-decoration: double;
+    text-decoration-color: black;
+}
+
+a:link {
+      text-decoration: none;
+      color: #cc4e46;
+}
+
+.nav-menu {
+    text-align: center; 
+    background-color: #f8f9fa;
+    padding: 20px;
+    border: 200px;
+    border-color: lightcoral;
+}
+
+.nav-menu a {
+    margin: 0 15px; 
+    text-decoration: none;
+    color: #333;
+    border: 200px;
+    border-color: lightcoral;
+    width: 200px;
+}
+
+a {
+    display: inline-flex;
+    gap: 20px;
+    justify-content: center;
+    padding: 30px;
+}
